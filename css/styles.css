@@ -5,6 +5,7 @@
 --primary-white-color: #FFFFFF;
 --footer-hero-background-color: #2F303A;
 --header-logo-color: #000000;
+--staff-color: #F5F4FA;
 }
 
 body{
@@ -189,7 +190,7 @@ body{
 }
 
 .section-staff {
-    background-color: #F5F4FA;
+    background-color: var(--staff-color);
 }
 
 .studio-button {
@@ -426,6 +427,44 @@ body{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.link-icon{
-    fill:#2196F3
+/* Icons */
+
+.contact-icon{
+    margin-right: 10px;
 }
+
+.benefits-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
+    background-color: var(--staff-color);
+}
+.staff-icon{
+    display: flex;
+    justify-content: space-around;
+    margin: 16px 32px 30px;
+    
+    width: 206px;
+    height: 44px;
+}
+
+.circle-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 50%;
+width: 44px;
+height: 44px;
+
+}
+
+.circle-icon .icon{
+}
+
