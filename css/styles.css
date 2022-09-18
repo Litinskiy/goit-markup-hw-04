@@ -469,7 +469,6 @@ body{
     background-color: var(--staff-color);
 }
 
-
 .staff-icon{
     display: flex;
     justify-content: center;
@@ -494,20 +493,18 @@ body{
     height: 44px;
 }
 
-.circle-icon:hover {
-    background-color: var(--accent-color);
-    fill: var(--primary-white-color)
-}
+.circle-icon:hover,
 .circle-icon:focus {
     background-color: var(--accent-color);
+    border-color: var(--accent-color);
     fill: var(--primary-white-color);
 }
 
-.business-card .icon{
+.staff-icon .icon{
     fill: var(--icon-color);
 }
-
-.business-card .icon:hover {
+.staff-icon .icon:hover,
+.staff-icon .icon:focus{
     fill: var(--primary-white-color);
 }
 
@@ -523,18 +520,14 @@ body{
     fill: var(--icon-color);
 }
 
-.clients-icon .icon:hover {
-    fill: var(--accent-color);
-}
 
+.clients-icon .icon:hover,
 .clients-icon .icon:focus {
+    border-color: var(--accent-color);
     fill: var(--accent-color);
 }
 
-.clients-icon .item:hover {
-    border-color: var(--accent-color);
-}
-
+.clients-icon .item:hover,
 .clients-icon .item:focus {
     border-color: var(--accent-color);
 }
